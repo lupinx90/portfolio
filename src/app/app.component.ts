@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { InfoPageService } from './services/info-page.service';
+import 'animate.css';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  constructor( public _infoPageService: InfoPageService ){
+    
+  }
 }

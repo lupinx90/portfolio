@@ -1,0 +1,13 @@
+//Update Bootstrap variables
+$link-color: SteelBlue;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//Custom modifications for dark theme
+body[data-theme="dark"] {
+  background-color: #231f20;
+  color: #ffffff;
+  .rk-dark-color{
+    color: steelblue;
+  }
+}

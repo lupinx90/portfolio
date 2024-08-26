@@ -11,9 +11,9 @@
       <use xlink:href="assets/img/symbols.svg#bar"></use>
     </svg>
   </label>
-  <div class="ae-container-fluid rk-topbar">
-    <h1 class="rk-logo">
-      <a routerLink="home">{{ infoPageService.info.title }} portfolio</a>
+  <div class="ae-container-fluid rk-topbar py-4">
+    <h1 class="rk-logo flex-grow-1 py-1">
+      <a routerLink="home">{{ infoPageService.info.title }}</a>
     </h1>
     <nav class="rk-navigation float-right py-1">
       <ul class="rk-menu">
@@ -51,10 +51,10 @@
         </li>
       </ul>
     </nav>
-    <div class="form-check form-switch float-right mx-5">
+    <div class="form-check form-switch flex-end mx-3 p-0">
       <label class="switch">
         <input
-          class="form-check-input"
+          class="form-check-input mx-0"
           type="checkbox"
           [checked]="isLightTheme"
           (change)="onThemeSwitchChange()"

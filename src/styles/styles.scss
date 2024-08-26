@@ -1,2 +1,16 @@
 @import "bootstrap";
 @import "themes";
+.rk-logo {
+  flex: 0;
+  -webkit-flex: 0;
+}
+.rk-mobile-menu + label {
+  left: 4vw;
+  top: 1.7rem;
+}
+.rk-menu__link {
+  padding: 0;
+}
+.form-switch{
+    margin-top: -3px;
+}
